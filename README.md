@@ -1,133 +1,118 @@
-# ASP.NET-Interview-Question
+# ASP.NET  Interview Questions & Answers
 
-Table of Contents	
-ASP.NET  Question Bank	3
-Dedication	4
-Introduction	5
-About the author	8
-Table of Contents	9
-ASP.NET	12
-Question : What is ASP.NET?	12
-Question : What are the different validators in ASP.NET?	14
-Question : What is View State?	14
-Question : What are the different Session state management options available in ASP.NET?	15
-Question : What is caching in ASP.NET?	16
-Question : How can we apply themes in ASP.NET application?	17
-Question : What are Cookies in ASP.NET?	18
-Question : What is Ajax in ASP.NET?	19
-Question : What are Web Services in ASP.NET?	19
-Question: What are the Advantages of ASP.NET?	20
-Question : What is the concept of Globalization and Localization in .NET?	21
-Question : What is the Web.config file in ASP?	21
-Question : What is the App Domain Concept in ASP.NET?	22
-Question : What is Query String in ASP?	23
-Question : What is master page in ASP.NET?	24
-Question : What is tracing in .NET?	24
-Question : What are the data controls available in ASP.NET?	25
-Question : What are the major events in global.aspx?	26
-Question : Use of CheckBox in .NET?	27
-Question : What is the authentication and authorization in ASP.NET?	27
-Question : What are the HTML server controls in ASP.NET?	29
-Question : What are the authentication modes in ASP.NET for security?	30
-Question : What is the web API in ASP.NET?	30
-Question : Describe application state management in ASP.NET?	31
-Question : What is the code behind and Inline Code?	32
-Question : What is the ASP.NET page life Cycle?	33
-Question : What are the ASP.NET page life cycle events?	34
-Question : Describe login Controls in ASP?	36
-Question : How to use repeater control in ASP.NET?	36
-Question : What are different methods of session maintenance in ASP.NET?	39
-Question : What is the Difference between session and caching?	41
-Question : What is the difference between HttpContext.Current.Items and HttpContext.Current.Session in ASP.NET?	42
-Question : What is the difference between Server.Transfer and Response.redirect?	43
-Question : What is page directives in ASP.NET?	44
-Question : What is HTTP Handler?	44
-Question : What are Differences between ASP.NET HttpHandler and HttpModule?	46
-Question : Explain the AdRotator Control?	46
-Question : What is cross-page posting in ASP.NET?	47
-Question : Explain GridView control in ASP.NET?	49
-Question : What is the difference between ASP.NET Web API and WCF?	49
-Question : What is the PostBack property in ASP.NET?	50
-Question : Explain Cookie-less Session in ASP.NET.	51
-Question : What is Themes in ASP.NET?	51
-Question :How to apply themes?	52
-Question : What are the Navigations techniques in ASP.NET?	52
-Question : What is WebParts in ASP.NET?	53
-Question : What are master pages?	54
-Question : What is Data Cache in ASP.NET and how to use?	54
-Question : How to remove a Data Cache?	55
-Question : Enterprise Library in ASP.NET?	55
-Question : How can we improve the performance of an ASP.NET webpage?	55
-Question : How to Enable/disable Connection Pooling?	56
-Question : Can we use more than one web.config in ASP.NET?	56
-Question : Can we declare more than one connectionstring in webconfig file?	56
-Question : What are nullable Datatypes?	56
-Question : What is App_code folder?	56
-Question : Can we use more than one master page in a website?	57
-Question : Difference between usercontrol & custom control?	57
-Question : How to declare the Connectionstring Globally?	57
-Question : What is the difference between web.config and machine.config file?	57
-Question : Can we disable the Viewstate?	57
-Question : What is the scope of Viewstate?	57
-Question : How to maintain the state in ASP.NET without using state management techniques?	58
-Question : What is Autopost? If Autopost property is set to false for DropDownlist control ?what will happen? the request will not submit to Server	58
-Question : Where all the Application level events are available?	58
+> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@kansiris87](https://twitter.com/kansiris87) for technical updates.
 
+### Table of Contents
+
+| No. | Questions |
+|---- | ---------
+|1    | [What is ASP.NET?	](#)|
+|1    | [What are the different validators in ASP.NET?	](#)|
+|1    | [What is View State?	](#)|
+|1    | [What are the different Session state management options available in ASP.NET?	](#)|
+|1    | [What is caching in ASP.NET?	](#)|
+|1    | [How can we apply themes in ASP.NET application?	](#)|
+|1    | [What are Cookies in ASP.NET? ](#)|
+|1    | [What is Ajax in ASP.NET?	](#)|
+|1    | [What are Web Services in ASP.NET?	](#)|
+|1    | [What are the Advantages of ASP.NET?	](#)|
+|1    | [What is the concept of Globalization and Localization in .NET?	](#)|
+|1    | [What is the Web.config file in ASP?	](#)|
+|1    | [What is the App Domain Concept in ASP.NET?	](#)|
+|1    | [What is Query String in ASP?	](#)|
+|1    | [What is master page in ASP.NET?	](#)|
+|1    | [What is tracing in .NET?	](#)|
+|1    | [What are the data controls available in ASP.NET?	](#)|
+|1    | [What are the major events in global.aspx?	](#)|
+|1    | [Use of CheckBox in .NET?	](#)|
+|1    | [What is the authentication and authorization in ASP.NET?	](#)|
+|1    | [What are the HTML server controls in ASP.NET?	](#)|
+|1    | [What are the authentication modes in ASP.NET for security?	](#)|
+|1    | [What is the web API in ASP.NET?	](#)|
+|1    | [Describe application state management in ASP.NET? ](#)|
+|1    | [What is the code behind and Inline Code?	](#)|
+|1    | [What is the ASP.NET page life Cycle?	](#)|
+|1    | [What are the ASP.NET page life cycle events?	](#)|
+|1    | [Describe login Controls in ASP?	](#)|
+|1    | [How to use repeater control in ASP.NET?	](#)|
+|1    | [What are different methods of session maintenance in ASP.NET?	](#)|
+|1    | [What is the Difference between session and caching?	](#)|
+|1    | [What is the difference between HttpContext.Current.Items and HttpContext.Current.Session in ASP.NET?	](#)|
+|1    | [What is the difference between Server.Transfer and Response.redirect?	](#)|
+|1    | [What is page directives in ASP.NET?	](#)|
+|1    | [What is HTTP Handler?	](#)|
+|1    | [What are Differences between ASP.NET HttpHandler and HttpModule?	](#)|
+|1    | [Explain the AdRotator Control?	](#)|
+|1    | [What is cross-page posting in ASP.NET?	](#)|
+|1    | [Explain GridView control in ASP.NET?	](#)|
+|1    | [What is the difference between ASP.NET Web API and WCF?	](#)|
+|1    | [What is the PostBack property in ASP.NET?	](#)|
+|1    | [Explain Cookie-less Session in ASP.NET.	](#)|
+|1    | [What is Themes in ASP.NET? ](#)|
+|1 |How to apply themes?	](#)|
+|1    | [What are the Navigations techniques in ASP.NET?	](#)|
+|1    | [What is WebParts in ASP.NET?	](#)|
+|1    | [What are master pages?	](#)|
+|1    | [What is Data Cache in ASP.NET and how to use?	](#)|
+|1    | [How to remove a Data Cache?	](#)|
+|1    | [Enterprise Library in ASP.NET?	](#)|
+|1    | [How can we improve the performance of an ASP.NET webpage?	](#)|
+|1    | [How to Enable/disable Connection Pooling?	](#)|
+|1    | [Can we use more than one web.config in ASP.NET?	](#)|
+|1    | [Can we declare more than one connectionstring in webconfig file?	](#)|
+|1    | [What are nullable Datatypes?	](#)|
+|1    | [What is App_code folder?	](#)|
+|1    | [Can we use more than one master page in a website?	](#)|
+|1    | [Difference between usercontrol & custom control? ](#)|
+|1    | [How to declare the Connectionstring Globally?	](#)|
+|1    | [What is the difference between web.config and machine.config file?	](#)|
+|1    | [Can we disable the Viewstate?	](#)|
+|1    | [What is the scope of Viewstate?	](#)|
+|1    | [How to maintain the state in ASP.NET without using state management techniques?	](#)|
+|1    | [What is Autopost? If Autopost property is set to false for DropDownlist control ?what will happen? the request will not submit to Server	](#)|
+|1    | [Where all the Application level events are available?	](#)|
 
 
 
+### Question : What is ASP.NET?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ASP.NET
-Question : What is ASP.NET?
 ASP.NET was developed in direct response to the problems that developers had with classic ASP. Since ASP is in such wide use, however, Microsoft ensured that ASP scripts execute without modification on a machine with the .NET Framework (the ASP engine, ASP.DLL, is not modified when installing the .NET Framework). Thus, IIS can house both ASP and ASP.NET scripts on the same machine.
+
 Advantages of ASP.NET:
+
 Separation of Code from HTML:
-To make a clean sweep, with ASP.NET you have the ability to completely separate layout and business logic. This makes it much easier for teams of programmers and designers to collaborate efficiently.
+
+To make a clean sweep, with ASP.NET you have the ability to completely separate layout and business logic. This makes it much easier for 
+teams of programmers and designers to collaborate efficiently.
+
 Support for compiled languages:
 Developer can use VB.NET and access features such as strong typing and object-oriented programming. Using compiled languages also means that ASP.NET pages do not suffer the performance penalties associated with interpreted code. ASP.NET pages are precompiled to byte-code and Just In Time (JIT) compiled when first requested. Subsequent requests are directed to the fully compiled code, which is cached until the source changes.
+
 Use services provided by the .NET Framework:
 The .NET Framework provides class libraries that can be used by your application. Some of the key classes help you with input/output, access to operating system services, data access, or even debugging. We will go into more detail on some of them in this module.
+
 Graphical Development Environment:
 Visual Studio .NET provides a very rich development environment for web developers. You can drag and drop controls and set properties the way you do in Visual Basic 6. And you have full IntelliSense support, not only for your code, but also for HTML and XML.
+
 State management:
 To refer to the problems mentioned before, ASP.NET provides solutions for session and application state management. State information can, for example, be kept in memory or stored in a database. It can be shared across web farms, and state information can be recovered, even if the server fails or the connection breaks down.
+
 Update files while the server is running:
 Components of your application can be updated while the server is online and clients are connected. The framework will use the new files as soon as they are copied to the application. Removed or old files that are still in use are kept in memory until the clients have finished.
+
 XML-Based Configuration Files:
 Configuration settings in ASP.NET are stored in XML files that you can easily read and edit. You can also easily copy these to another server, along with the other files that comprise your application.
+
 ASP.NET Overview: Here are some points that give the quick overview of ASP.NET.
+
 ASP.NET provides services to allow the creation, deployment, and execution of Web Applications and Web Services.
+
 Like ASP, ASP.NET is a server-side technology.
+
 Web Applications are built using Web Forms. ASP.NET comes with built-in Web Forms controls, which are responsible for generating the user interface. They mirror typical HTML widgets like text boxes or buttons. If these controls do not fit your needs, you are free to create your own user controls.
+
 Web Forms are designed to make building web-based applications as easy as building Visual Basic applications.
+
 Question : What are the different validators in ASP.NET?
 ASP.NET validation controls define an important role in validating the user input data. Whenever the user gives the input, it must always be validated before sending it across to various layers of an application. If we get the user input with validation, then chances are that we are sending the wrong data. So, validation is a good idea to do whenever we are taking input from the user.
 There are the following two types of validation in ASP.NET:
